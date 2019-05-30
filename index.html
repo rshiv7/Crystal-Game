@@ -6,15 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Game</title>
+    <embed src="/Users/Raghav/Desktop/Crystal-Game/assets/Media/office.mp3" width="0px" height="0px" autostart="true">
+
 
 </head>
 
-
-
-
 <body>
-
-
 
     <div class="container">
 
@@ -59,7 +56,7 @@
             <div class="winsAndLosses">
                 <h2>Wins:
                     <span id="numberWins"></span>
-                    </br>
+                    <br>
                     Losses:
                     <span id="numberLosses"></span>
                 </h2>
@@ -67,31 +64,29 @@
 
         </div>
 
-
-
-        <div id="directions"></div>
-
-
         <div>
-            <img class="items" onclick="popItem(event, 'image1')" id="image1" width="300px" height="300px"
-                src="assets/images/PretzelDay.jpg">
-            <img class="items" onclick="popItem(event, 'image2')" id="image2" width="300px" height="300px"
-                src="assets/images/St.Pauli.jpg">
-            <img class="items" onclick="popItem(event, 'image3')" id="image3" width="300px" height="300px"
-                src="assets/images/StaplerJello.jpg">
-            <img class="items" onclick="popItem(event, 'image4')" id="image4" width="300px" height="300px"
-                src="assets/images/WBB.jpg">
+            <img class="items" id="image1" width="300px" height="300px" src="assets/images/PretzelDay.jpg"
+                alt="Pretzel">
+            <img class="items" id="image2" width="300px" height="300px" src="assets/images/St.Pauli.jpg"
+                alt="Neon Sign">
+            <img class="items" id="image3" width="300px" height="300px" src="assets/images/StaplerJello.jpg"
+                alt="Jello">
+            <img class="items" id="image4" width="300px" height="300px" src="assets/images/WBB.jpg" alt="Mug">
         </div>
 
+
+
+
         <div class="userTotal">
-                <h2>Your total score is:
-                    <span id="finalTotal"></span>
-                </h2>
-            </div>
-        
+            <h2>Your total score is:
+                <span id="finalTotal"></span>
+            </h2>
+        </div>
+
 
     </div>
-    <script src="/Users/Raghav/Desktop/Crystal-Game/assets/javascript/game.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
