@@ -1,4 +1,15 @@
 
 .container{
     text-align: center
+
+}
+
+#gameName{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.userTotal{
+    font-weight: bolder;
+    font-size: 25px;
 }
