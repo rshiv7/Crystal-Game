@@ -2,6 +2,8 @@
 
 ![alt text](assets/images/CrystalGame_Screenshot.png "Crystal Game Screenshot")
 
+<hr>
+
 ## How the Game works :
 
 
